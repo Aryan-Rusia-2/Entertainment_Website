@@ -1,0 +1,108 @@
+.campus {
+    min-height: 100%;
+    padding: 10% 10%;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #040615;
+}
+
+.campus-col {
+    box-shadow: 0 0 30px 1px #831252;
+    flex-basis: 35%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.campus-col:hover {
+    box-shadow: 0 0 50px 1px #a55b856d;
+    scale: 1.10;
+}
+
+.campus-col img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+}
+
+.layer:hover {
+    background: #8312526a;
+
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 26px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer p {
+    width: 100%;
+    font-weight: 300;
+    color: whitesmoke;
+    font-size: 18px;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.layer:hover p {
+
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+.row {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.row2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
